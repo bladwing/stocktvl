@@ -22,8 +22,9 @@ const StockView = () => {
   };
 
   return (
-    <div className="container">
-      <h1 className="my-4">Stock Place</h1>
+
+
+     
       <table className="table table-striped">
         <thead>
           <tr>
@@ -62,7 +63,7 @@ const StockView = () => {
           ))}
         </tbody>
       </table>
-    </div>
+
   );
 };
 
