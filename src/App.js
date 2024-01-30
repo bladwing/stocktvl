@@ -9,9 +9,8 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-   
+      <Nav/>
         <div className="container">
-        <Nav/>
           <Routes>
             <Route exact path="/" element={<StockView />} />
             <Route exact path="/createitem" element={<StockView />} />
